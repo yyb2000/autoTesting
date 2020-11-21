@@ -55,7 +55,7 @@ public class testSelection {
         }
     }
 
-    public void selecter(char selectOption) throws IOException, InvalidClassFileException, ClassHierarchyException, CancelException {
+    public void selector(char selectOption) throws IOException, InvalidClassFileException, ClassHierarchyException, CancelException {
         String sourcedirPath = this.targetPath + "\\classes\\net\\mooctest";
         String testdirPath = this.targetPath + "\\test-classes\\net\\mooctest";
 
@@ -113,6 +113,6 @@ public class testSelection {
 
     public static void main(String[] args) throws IOException, InvalidClassFileException, ClassHierarchyException, CancelException {
         testSelection testselection = new testSelection(args[1], args[2]);
-        testselection.selecter(args[0].charAt(1));
+        testselection.selector(args[0].charAt(1));
     }
 }
