@@ -28,12 +28,7 @@ public class testSelection {
 
     //存放说明
     private final HashSet<String> classesFind = new HashSet<String>();  //用于存放所有检测到的类
-    private final HashSet<String> methodsFind = new HashSet<String>();  //用于存放所有检测到的方法
-    private final HashSet<String> testMethods = new HashSet<String>();  //用于存放所有的test方法
     private final ArrayList<String> changeInfo = new ArrayList<String>();   //用于存放记录变更信息
-    private final HashMap<String, List<String>> methodsCallRelaionship = new HashMap<String, List<String>>();   //用于存放方法间的调用关系，其中key为一个方法，value为所有直接调用了这个方法的其他方法
-    private final HashMap<String, List<String>> classDependency =  new HashMap<>(); //用于存放class粒度的依赖，key为类名，value为直接依赖此类的类名
-    private final HashMap<String, List<String>> methodDependency = new HashMap<>(); //用于存放method粒度的依赖，key为方法名，value为直接依赖此方法的方法名
 
     /**
      * @param targetPath 待分析文件路径
@@ -120,7 +115,7 @@ public class testSelection {
     }
 
     public static void main(String[] args) throws IOException, InvalidClassFileException, ClassHierarchyException, CancelException {
-        testSelection testsel = new testSelection(args[1], args[2]);
-        testsel.selecter(args[0].charAt(1));
+        testSelection testselection = new testSelection(args[1], args[2]);
+        testselection.selecter(args[0].charAt(1));
     }
 }

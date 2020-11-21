@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 
 public class relationBuild {
     private final HashSet<String> testMethods = new HashSet<String>();  //用于存放所有的test方法
-    private final HashMap<String, List<String>> methodsCallRelaionship = new HashMap<String, List<String>>();   //用于存放方法间的调用关系，其中key为一个方法，value为所有直接调用了这个方法的其他方法
+    private final HashMap<String, List<String>> methodsCallRelationship = new HashMap<String, List<String>>();   //用于存放方法间的调用关系，其中key为一个方法，value为所有直接调用了这个方法的其他方法
     private final HashSet<String> methodsFind = new HashSet<String>();  //用于存放所有检测到的方法
 
 
@@ -39,23 +39,23 @@ public class relationBuild {
                         String methodCalled = callSiteReference.getDeclaredTarget().getSignature();
                         String callee = classCalled + " " + methodCalled;
 
-                        if (methodsCallRelaionship.containsKey(callee)) {
-                            if (!methodsCallRelaionship.get(callee).contains(caller)) {
-                                methodsCallRelaionship.get(callee).add(caller);
+                        if (methodsCallRelationship.containsKey(callee)) {
+                            if (!methodsCallRelationship.get(callee).contains(caller)) {
+                                methodsCallRelationship.get(callee).add(caller);
                             }
                         }
                         else {
                             List<String> list = new ArrayList<>();
                             list.add(caller);
-                            methodsCallRelaionship.put(callee, list);
+                            methodsCallRelationship.put(callee, list);
                         }
                     }
                 }
             }
         }
-        for (String callee : methodsCallRelaionship.keySet()) {
+        for (String callee : methodsCallRelationship.keySet()) {
             methodsFind.add(callee);
-            methodsFind.addAll(methodsCallRelaionship.get(callee));
+            methodsFind.addAll(methodsCallRelationship.get(callee));
         }
     }
 }

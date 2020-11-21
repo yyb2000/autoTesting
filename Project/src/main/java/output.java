@@ -10,7 +10,7 @@ import java.util.List;
  * 将选择出的测试用例集合存储到指定文件
  */
 public class output {
-    private final HashSet<String> testMethods = new HashSet<String>();
+    private final HashSet<String> testMethods = new HashSet<String>();  //用于存放所有的test方法
     private final HashMap<String, List<String>> classDependency =  new HashMap<>(); //用于存放class粒度的依赖，key为类名，value为直接依赖此类的类名
     private final HashMap<String, List<String>> methodDependency = new HashMap<>(); //用于存放method粒度的依赖，key为方法名，value为直接依赖此方法的方法名
 
