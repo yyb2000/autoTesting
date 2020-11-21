@@ -8,15 +8,12 @@ import com.ibm.wala.ipa.cha.ClassHierarchy;
 import com.ibm.wala.ipa.cha.ClassHierarchyFactory;
 import com.ibm.wala.types.ClassLoaderReference;
 import com.ibm.wala.util.config.AnalysisScopeReader;
-import com.ibm.wala.classLoader.CallSiteReference;
 import com.ibm.wala.ipa.cha.ClassHierarchyException;
 import com.ibm.wala.shrikeCT.InvalidClassFileException;
-import com.ibm.wala.types.annotations.Annotation;
 import com.ibm.wala.util.CancelException;
 
 import java.io.*;
 import java.util.*;
-import java.util.regex.Pattern;
 
 public class testSelection {
     
