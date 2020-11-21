@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24cf2c6a-5e91-49c8-a9fd-30182136295b" name="Default Changelist" comment="basic feature completed" />
+    <list default="true" id="24cf2c6a-5e91-49c8-a9fd-30182136295b" name="Default Changelist" comment="basic feature completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +36,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1kYtyQNMQisjEi8ZSsEa663sWgL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,12 +85,19 @@
       </method>
     </configuration>
     <configuration name="testSelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <output_file path="$PROJECT_DIR$/.." is_save="true" />
+      <log_file alias="D:\自动化测试\autoTesting\Project\data\0-CMD" path="$PROJECT_DIR$/Project/data/0-CMD" />
+      <log_file alias="D:\自动化测试\autoTesting\Project\data\1-ALU" path="$PROJECT_DIR$/Project/data/1-ALU" />
       <option name="MAIN_CLASS_NAME" value="testSelection" />
       <module name="WALA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TCSelection" />
+      <item itemvalue="Application.testSelection" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.testSelection" />
@@ -100,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605889606955</updated>
       <workItem from="1605889611329" duration="5526000" />
-      <workItem from="1605939622218" duration="18075000" />
+      <workItem from="1605939622218" duration="19191000" />
     </task>
     <task id="LOCAL-00001" summary="basic feature completed">
       <created>1605957556397</created>
@@ -137,50 +153,94 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1605935073500" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605965010624">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605965877037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605965010624" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605965877037" />
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605965717993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1605965717993" />
+    <state x="498" y="187" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605965768893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="187" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1605965768893" />
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605965763625">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1605965763625" />
     <state x="862" y="100" width="581" height="630" key="DiffContextDialog" timestamp="1605936920030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="862" y="100" width="581" height="630" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1605936920030" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605961728331">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605966386312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605961728331" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605965401886">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605966386312" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1605965927045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605965401886" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605965401886">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1605965927045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605965401886" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605965401885">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1605965927045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605965401885" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605965401886">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1605965927045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605965401886" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605961849021">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605965927045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605961849021" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1605961849020">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1605965927045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605961849020" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1605961849020">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1605965927045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605961849020" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1605961849020">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1605965927045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605961849020" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1605965927045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1605965927045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1605965927045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1605965927045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom" timestamp="1605965927045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.3.center" timestamp="1605965927045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.3.left" timestamp="1605965927045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
+    <state width="1493" height="261" key="GridCell.Tab.3.right" timestamp="1605965927045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1605965927045" />
     <state x="498" y="0" key="SettingsEditor" timestamp="1605941974302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -201,5 +261,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605941997208" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Project/src/main/java/testSelection.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/autoTesting$testSelection.ic" NAME="testSelection Coverage Results" MODIFIED="1605965879281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
